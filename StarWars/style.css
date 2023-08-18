@@ -1,0 +1,102 @@
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+  
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item-main-head {
+  background: rgb(97, 205, 238);
+  padding: 1rem;
+  width: 18rem;
+  height: 1rem;
+  line-height:1rem;
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  margin-right: auto;
+}
+.flex-item-main-body {
+  background: rgb(250, 165, 37);
+  width: 18rem;
+  height: 3,2rem;
+  line-height:1rem;
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  margin-right: auto;
+  list-style-type: none;
+}
+
+
+.flex-item-secondary-head {
+  background: rgb(94, 172, 21);
+  padding: 1rem;
+  width: 18rem;
+  height: 1rem;
+  line-height:1rem;
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  margin-right: auto;
+}
+.flex-item-secondary-body {
+  background: rgb(148, 42, 235);
+  width: 18rem;
+  height: 3,2rem;
+  line-height:1rem;
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  margin-right: auto;
+  list-style-type: none;
+}
+
+.flex-item-extra-head {
+  background: rgb(248, 244, 0);
+  padding: 1rem;
+  width: 18rem;
+  height: 1rem;
+  line-height:1rem;
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  margin-right: auto;
+}
+.flex-item-extra-body {
+  background: black;
+  width: 18rem;
+  height: 3,2rem;
+  line-height:1rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  margin-right: auto;
+  list-style-type: none;
+}
+
+  .card{
+    margin-right: auto;
+  }
+  .card-item{
+    margin-bottom: 2rem;
+  }
